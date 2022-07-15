@@ -16,7 +16,7 @@ const SplashScreen =({navigation}) =>{
         <SafeAreaView>
             
         <View>
-        <Text>SplashScreen</Text>
+        
         <Button title="SplashScreen" onPress={()=>navigation.navigate("SignIn")}></Button>
         </View>
 
